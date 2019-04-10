@@ -1,0 +1,20 @@
+fh = open("data.txt","w")
+print("42 is the answer, but what is the question?", file=fh)
+fh.close()
+
+
+###end, sep...="***")(...end="&&&")
+
+import sys
+# output into sys.stderr:
+ 
+print("Error: 42", file=sys.stderr)
+Error: 42
+
+q = 459
+p = 0.098
+print(q, p, p * q)
+
+print(q, p, p * q, sep=",")
+
+print(q, p, p * q, sep=" :-) ")
