@@ -1,0 +1,15 @@
+price = 11.23
+f"Price in Euro: {price}"
+'Price in Euro: 11.23'
+f"Price in Swiss Franks: {price * 1.086}"
+
+>>> f"Price in Swiss Franks: {price * 1.086:5.2f}"
+'Price in Swiss Franks: 12.20'
+for article in ["bread", "butter", "tea"]:
+    print(f"{article:>10}:")
+... 
+     bread:
+    butter:
+       tea:
+       
+       
